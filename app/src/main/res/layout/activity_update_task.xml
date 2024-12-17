@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg_brown_wood">
+
+    <EditText
+        android:id="@+id/etUpdateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Title"
+        android:layout_marginBottom="16dp" />
+    <EditText
+        android:id="@+id/etUpdateDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/tvUpdateCharacterCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="800 Characters"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="end" />
+    <EditText
+        android:id="@+id/etUpdateDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/baseline_calendar_month_24"
+        android:hint="Deadline"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:clickable="true"
+        />
+    <Spinner
+        android:id="@+id/UpdateSpinnerPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnSaveUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Task"
+            android:backgroundTint="#7E6A56"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnBackUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="#7E6A56"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>

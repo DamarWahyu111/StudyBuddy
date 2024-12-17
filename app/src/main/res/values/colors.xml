@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Warna untuk tema -->
+    <color name="bg_brown_wood">#D6B598</color>
+    <color name="primary_brown">#8B5A2B</color>
+    <color name="coklat_hangat">#9C7A57</color>
+    <color name="coklat_kayu_tua">#7E6A56</color>
+    <color name="coklat_muda">#B1906E</color>
+    <color name="coklat_natural">#8B6A4E</color>
+    <color name="priority_high">#FF0000</color>
+    <color name="priority_medium">#FFEB3B</color>
+    <color name="priority_low">#4CAF50</color>
+    <color name="coklat_gatau">#D0B8A8</color>
+</resources>

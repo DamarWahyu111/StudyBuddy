@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg_brown_wood">
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Title"
+        android:minHeight="48dp"
+        android:padding="16dp"/>
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:maxLength="1500"
+        />
+
+    <TextView
+        android:id="@+id/tvCharacterCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="800 Characters"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="end"/>
+
+    <EditText
+        android:id="@+id/etDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/baseline_calendar_month_24"
+        android:hint="Deadline"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:clickable="true"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="16dp"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="@color/coklat_hangat" />
+</LinearLayout>
