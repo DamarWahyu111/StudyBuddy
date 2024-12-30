@@ -46,7 +46,7 @@ public class HomeFragment extends Fragment {
         if (cursor == null || cursor.getCount() == 0) {
             // Clear the taskContainer if there are no tasks
             taskContainer.removeAllViews();
-            Toast.makeText(getActivity(), "No tasks found", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(getActivity(), "No tasks found", Toast.LENGTH_SHORT).show();
             if (cursor != null) cursor.close();
             return;
         }

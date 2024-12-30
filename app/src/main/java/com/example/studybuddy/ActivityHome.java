@@ -62,8 +62,8 @@ public class ActivityHome extends AppCompatActivity implements NavigationView.On
             selectedFragment = new HomeFragment();
         } else if (title.equals("Create Task")) {
             selectedFragment = new CreateFragment();
-        } else if (title.equals("About")) {
-            selectedFragment = new AboutFragment();
+//        } else if (title.equals("About")) {
+//            selectedFragment = new AboutFragment();
         } else if (title.equals("Logout")) {
             SharedPreferences sharedPreferences = getSharedPreferences("StudyBuddyPrefs", MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();

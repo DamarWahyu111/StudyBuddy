@@ -28,8 +28,8 @@ public class ActivityLogin extends AppCompatActivity {
         btnLogin.setOnClickListener(view -> {
             String username = etUsername.getText().toString();
             String password = etPassword.getText().toString();
-            String savedUsername = sharedPreferences.getString("username", null);  // Ambil username yang tersimpan
-            String savedPassword = sharedPreferences.getString("password", null);  // Ambil password yang tersimpan
+            String savedUsername = sharedPreferences.getString("username", "default_user");  // Ambil username yang tersimpan
+            String savedPassword = sharedPreferences.getString("password", "default_pass");  // Ambil password yang tersimpan
             if (username.equals(savedUsername) && password.equals(savedPassword)) {
                 // Save the logged-in username to display in ActivityHome
                 SharedPreferences.Editor editor = sharedPreferences.edit();
